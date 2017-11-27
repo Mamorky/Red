@@ -29,5 +29,6 @@ android {
         compile 'com.loopj.android:android-async-http:1.4.9'
         compile 'com.android.volley:volley:1.0.0'
         compile 'com.squareup.okhttp3:okhttp:3.9.0'
+        compile 'com.squareup.picasso:picasso:2.5.2'
     }
 }

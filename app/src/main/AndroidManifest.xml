@@ -3,6 +3,8 @@
     package="com.example.red">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -14,16 +16,19 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".ConexionHTTP" />
         <activity android:name=".ConexionAsincrona" />
-        <activity android:name=".Descarga" />
+        <activity android:name=".Descarga">
+
+        </activity>
         <activity android:name=".ConexionAAHC">
         </activity>
         <activity android:name=".ConexionVolley">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        </activity>
+        <activity android:name=".SubidaFichero">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
-
 </manifest>
